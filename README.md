@@ -26,14 +26,14 @@ A Python tool for processing BMP images with real-time manipulation capabilities
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/bmp-processor.git
-   cd bmp-processor
+   git clone https://github.com/**yourusername**/bmp-image-progessing.git
+   cd bmp-image-processing
    ```
 2. Install dependencies:
    ```bash
     pip install -r requirements.txt
    ```
-3. Run:
+3. Run the application:
     ```bash
     python main.py    
     ``` 
