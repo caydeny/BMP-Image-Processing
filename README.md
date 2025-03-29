@@ -4,12 +4,10 @@ This project handles BMP files by parsing metadata and displaying details such a
 
 Here are some example images showing the project in use:
 
-![Example 1](images/example1.png)
-
+<img src="images/example1.png" width="50%" />
 *Original Image*
 
-![Example 2](images/example2.png)
-
+<img src="images/example2.png" width="50%" />
 *Processed Image with Color Channel Removal*
 
 ## Requirements
