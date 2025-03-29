@@ -5,12 +5,11 @@ This project handles BMP files by parsing metadata and displaying details such a
 Here are some example images showing the project in use:
 
 ![Example 1](images/example1.png)
+
 *Original Image*
 
 ![Example 2](images/example2.png)
-*Processed Image with Brightness and Scale Adjustment*
 
-![Example 3](images/example3.png)
 *Processed Image with Color Channel Removal*
 
 ## Requirements
