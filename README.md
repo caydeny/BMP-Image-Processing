@@ -1,21 +1,39 @@
-# BMP Image Processing
+# BMP Image Processor
 
-This project handles BMP files by parsing metadata and displaying details such as pixel width, height, file size, and bits per pixel. Users can adjust parameters like pixel brightness through YUV color manipulation, reduce file size via scaling, and remove specific color channels. All of this processing is done in real time for an interactive experience.
+A Python tool for processing BMP images with real-time manipulation capabilities. Read metadata, adjust colors, resize, and modify images interactively.
 
-Here are some example images showing the project in use:
+![Example Processing Pipeline](images/example1.png)  
+*Original image (left) and processed version with blue channel removed (right)*
 
-<img src="images/example1.png" width="50%" />
-*Original Image*
+## Features
 
-<img src="images/example2.png" width="50%" />
-*Processed Image with Color Channel Removal*
+- **Metadata Extraction**:
+  - Display image width, height, and dimensions
+  - Show file size and color depth (bits per pixel)
+  - Read BMP header information
 
-## Requirements
+- **Image Manipulation**:
+  - Color channel removal (R/G/B)
+  - Brightness adjustment via YUV conversion
+  - Image scaling/resizing
+  - Real-time preview of changes
 
-To run this project, you will need to install the required dependencies. You can do this by running:
+- **Performance**:
+  - Efficient pixel-level operations
+  - Interactive processing feedback
 
-```bash
-pip install -r requirements.txt
-```
+## Installation
 
-Then run main.py.
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/bmp-processor.git
+   cd bmp-processor
+   ```
+2. Install dependencies:
+   ```bash
+    pip install -r requirements.txt
+   ```
+3. Run:
+    ```bash
+    python main.py    
+    ``` 
